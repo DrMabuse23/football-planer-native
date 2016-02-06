@@ -41,7 +41,7 @@ export default class LoginForm extends LoginFormModel {
         <View style={ [styles.container] }>
           <View style={[MKCardStyles.card]}>
             <Image
-              source={require('./../assets/images/soccer-3.png')}
+              source={require('./../assets/images/soccer-2.png')}
               style={[
                 MKCardStyles.image,
                 styles.image

@@ -1,7 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
+
 'use strict';
 import DbConnector from './app/common/firebase-adapter/connection.js';
 import LoginComp from './app/auth/login.ios';
@@ -16,7 +13,6 @@ import React, {
 class footballPlaner extends Component {
   constructor() {
     super();
-
     this.state = {
       loggedIn: false,
       connector: new DbConnector()
@@ -41,6 +37,7 @@ class footballPlaner extends Component {
     } else {
       return (
         <View>
+          <Text>Hello WOrkd</Text>
         </View>
       );
     }
